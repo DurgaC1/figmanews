@@ -1,0 +1,18 @@
+'Log files:
+/Users/chinthavijayadurga/Downloads/Figma Newsgenie/.npm-cache/_logs/2025-11-03T18_35_11_995Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: newsgenie@1.0.0
+Found: @react-navigation/native@7.0.19
+node_modules/@react-navigation/native
+  @react-navigation/native@"~7.0.14" from the root project
+
+Could not resolve dependency:
+peer @react-navigation/native@"^6.0.0" from @react-navigation/stack@6.3.29
+node_modules/@react-navigation/stack
+  @react-navigation/stack@"~6.3.20" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
