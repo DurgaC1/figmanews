@@ -4,3 +4,16 @@
 
 expo-env.d.ts
 # @end expo-cli
+
+# Metro bundler cache
+.metro*
+node_modules/.cache
+.expo
+
+# iOS
+ios/Pods
+ios/build
+
+# Android
+android/build
+android/app/build
