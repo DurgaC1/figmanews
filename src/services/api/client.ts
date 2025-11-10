@@ -33,7 +33,8 @@ class ApiClient {
 
     // Response interceptor
     this.client.interceptors.response.use(
-      (response) => response.data,
+      // Return the full response so service callers can access `response.data` as expected
+      (response) => response,
       async (error: AxiosError) => {
         const apiError: ApiError = {
           message: error.message || 'An error occurred',
